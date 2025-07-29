@@ -1,0 +1,64 @@
+{
+  "name": "windows-system-mcp",
+  "version": "1.0.0",
+  "description": "A comprehensive MCP server for Windows system operations including file management, process control, and system monitoring",
+  "main": "build/index.js",
+  "bin": {
+    "windows-system-mcp": "build/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch",
+    "test": "npm run build && echo ✅ Build successful - MCP Server is ready!",
+    "sse": "npx supergateway --stdio \"node build/index.js\" --port 3100",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "windows",
+    "system",
+    "file-management",
+    "process-management",
+    "system-monitoring",
+    "filesystem",
+    "process",
+    "registry",
+    "performance",
+    "network",
+    "claude",
+    "ai",
+    "assistant"
+  ],
+  "author": {
+    "name": "Xingyu Chen",
+    "email": "guangxiangdebizi@gmail.com",
+    "url": "https://github.com/guangxiangdebizi"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guangxiangdebizi/windows-system-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guangxiangdebizi/windows-system-mcp/issues"
+  },
+  "homepage": "https://github.com/guangxiangdebizi/windows-system-mcp#readme",
+  "files": [
+    "build/**/*",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
