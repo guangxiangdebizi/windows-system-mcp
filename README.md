@@ -8,6 +8,10 @@
 
 A comprehensive Model Context Protocol (MCP) server that provides AI models with powerful Windows system management capabilities. This MCP enables AI assistants to interact with Windows systems through a secure, well-structured interface.
 
+<a href="https://glama.ai/mcp/servers/@guangxiangdebizi/windows-system-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@guangxiangdebizi/windows-system-mcp/badge" alt="Windows System MCP server" />
+</a>
+
 ## ✨ Features
 
 ### 📁 File System Management
